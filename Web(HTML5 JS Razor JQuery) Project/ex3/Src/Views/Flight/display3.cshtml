@@ -1,0 +1,122 @@
+﻿@{
+    ViewBag.Title = "display";
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="~/Scripts/jquery-1.10.2.min.js"></script>
+    <script src="~/Scripts/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="~/Content/Site.css">
+    <title>display 3</title>
+</head>
+<body>
+    <div id="container">
+        <img id="imageCanvas" src="~/export-map-share.png" />
+        <canvas id="canvas"></canvas>
+    </div>
+
+    <script>
+        //getting variables from viewbag
+        @{
+            var ms = ViewBag.ms;
+            var times = ViewBag.times;
+        }
+
+        var canvas2 = document.getElementById("canvas");
+        var ctx2 = canvas2.getContext("2d");
+        const image = document.getElementById("imageCanvas");
+        drawImageActualSize();
+
+        //drawing the map image
+        function drawImageActualSize() {
+            //adjusting size of the canvases
+            canvas2.width = 4160;
+            canvas2.height = 2164;
+
+            //creating interval and counter for the animation
+            pos = 0;
+            id = setInterval(secondCanv, @ms);
+        }
+
+        function secondCanv() {
+            //asking server for route list
+            $.ajax({
+                type: "GET",
+                url: "@Url.Action("getRoute2", "Flight")",
+                dataType: "json",
+                success: function (result) {
+                    //sending list to drawall
+                    drawAll(result)
+                },
+                error: function (response) {
+                    alert('eror');
+                }
+            });
+        }
+
+        function drawAll(result) {
+
+            points = result.route;
+
+            //clearing the canvas
+            ctx2.clearRect(0, 0, canvas2.width, canvas2.height);
+
+            //loop to draw the route
+            var i;
+            for (i = 1; i < points.length; i++) {
+
+                var startx = points[i - 1].X;
+                var starty = points[i - 1].Y;
+                var endx = points[i].X;
+                var endy = points[i].Y;
+
+                ctx2.strokeStyle = "#FF0000";
+                ctx2.lineWidth = 5;
+                ctx2.beginPath();
+                ctx2.moveTo(startx, starty);
+                ctx2.lineTo(endx, endy);
+                ctx2.stroke();
+            }
+
+            //sending last point to put the red dot on it
+            var lastPoint = { X: points[points.length - 1].X, Y: points[points.length - 1].Y };
+            drawd(lastPoint)
+        }
+
+        function drawd(p) {
+            //loading red dot only after loaing map
+            drawDot();
+            //srawing the red dot
+            function drawDot() {
+                ctx2.beginPath();
+                ctx2.arc(p.X, p.Y, 15, -10, 2 * Math.PI);
+                ctx2.fillStyle = "#595959";
+                ctx2.fill();
+                ctx2.beginPath();
+                ctx2.arc(p.X, p.Y, 8, -10, 2 * Math.PI);
+                ctx2.fillStyle = "red";
+                ctx2.fill();
+            }
+
+            //checking if the time is finished if it is we tell the controller
+            //to write to the file
+            if (pos >= @times) {
+                clearInterval(id);
+                $.ajax({
+                type: "GET",
+                url: "@Url.Action("writeAllToFile", "Flight")",
+                dataType: "json",
+                    success: function (result) {
+                    },
+                    error: function (response) {
+                        alert('eror');
+                    }
+                });
+            } else {
+                //else moving position
+                pos += @ms;
+            }
+        }
+    </script>
+</body>
+</html>

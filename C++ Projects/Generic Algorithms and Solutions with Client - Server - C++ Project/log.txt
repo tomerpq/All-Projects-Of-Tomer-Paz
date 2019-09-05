@@ -1,0 +1,193 @@
+commit d49ee3787a5db3803c9a2025f3ae7762e64105c4
+Author: eyalcohenx <eyalcohenx@gmail.com>
+Date:   Wed Jan 16 11:02:58 2019 +0200
+
+    FINAL PUSH.
+    FINISHD PROJECT.
+
+commit df9c24e412a2260a4fdc3a6763e069c76310eb3b
+Author: tomerpq <tomerpatum@gmail.com>
+Date:   Tue Jan 15 17:18:19 2019 -0800
+
+    eifo ani ve eifo santorini
+
+commit 551c40eb8bef9a9623ab6dba5613504405d6aa85
+Author: eyalcohenx <eyalcohenx@gmail.com>
+Date:   Tue Jan 15 15:06:56 2019 +0200
+
+    NEED TO CLEAR THE SOLVER ISSUE FROM ONE RUN TO THE OTHER
+    PLEASE ADD COMMENT WHERE TO PRINT THE NUMBER OF NODES VISITED
+    AFTER FIXING JUST RUN IT AND CHECK THERE ARE NO SEGGFAULTS...
+
+commit 05a0cc3cf854d21fc8b96c74c3aa3b171f6bf4fe
+Author: eyalcohenx <eyalcohenx@gmail.com>
+Date:   Tue Jan 15 12:06:23 2019 +0200
+
+    NEED TO FIX THE MEMORY ISSUE
+    PLEASE ADD COMMENT WHERE TO PRINT THE NUMBER OF NODES VISITED
+    AFTER FIXING JUST RUN IT
+
+commit e010a21846f229b5d41e2864553b3f35924e950f
+Merge: 4889d6d 750de71
+Author: eyalcohenx <eyalcohenx@gmail.com>
+Date:   Mon Jan 14 16:05:55 2019 +0200
+
+    Merge branch 'master' of https://github.com/Eyalcohenx/mileStone2
+
+commit 4889d6ddefae85d8b34be5331076df6a719641d0
+Author: eyalcohenx <eyalcohenx@gmail.com>
+Date:   Mon Jan 14 16:05:39 2019 +0200
+
+    ADDED INCLUDE ADAPTERS
+    NEED TO D OTHE QUEUE ONLY AND START TESTING
+
+commit 750de71a9265bbf3b84296a40ffd1efa5a1ef29f
+Author: tomerpq <tomerpatum@gmail.com>
+Date:   Mon Jan 14 05:41:34 2019 -0800
+
+    eifo ani ve eifo odesa
+
+commit b5ffd6c1050fd51bbacf39e95ad62a3750d0733d
+Author: eyalcohenx <eyalcohenx@gmail.com>
+Date:   Mon Jan 14 15:01:36 2019 +0200
+
+    ADDED INCLUDE ADAPTERS
+    NEED TO D OTHE QUEUE ONLY AND START TESTING
+
+commit 0f2fb73f2c0c4366b247e426163dd118fd5c1589
+Author: tomerpq <tomerpatum@gmail.com>
+Date:   Sun Jan 13 19:27:39 2019 -0800
+
+    eifo ani ve eifo bucharest
+
+commit b95f1249aa3628813349b2d89321f007ba7185ff
+Author: eyalcohenx <eyalcohenx@gmail.com>
+Date:   Mon Jan 14 01:13:10 2019 +0200
+
+    FastestPath
+
+commit 90dcd49e9404f520022d02805d60d75d71e02cd7
+Merge: 2ca7379 edfc1fa
+Author: eyalcohenx <eyalcohenx@gmail.com>
+Date:   Sun Jan 13 13:46:05 2019 +0200
+
+    Merge branch 'master' of https://github.com/Eyalcohenx/mileStone2
+
+commit edfc1fa0bcd642eb8346c99adfcc34f59c6a0d68
+Author: tomerpq <tomerpatum@gmail.com>
+Date:   Sun Jan 13 03:51:43 2019 +0200
+
+    DFS almost done
+
+commit f46cdb2bb362d832b0fe2b974079e97dc6f43ecf
+Author: tomerpq <tomerpatum@gmail.com>
+Date:   Sun Jan 13 03:33:34 2019 +0200
+
+    DFS almost done
+
+commit 2ca737908fdc41366029b85f0bbc3596915c0d27
+Merge: 0f422d2 e3dbe46
+Author: eyalcohenx <eyalcohenx@gmail.com>
+Date:   Sun Jan 13 01:52:35 2019 +0200
+
+    Merge branch 'master' of https://github.com/Eyalcohenx/mileStone2
+
+commit e3dbe460b7fcaf7c5ca106b5a9d4996b011fe6f5
+Author: tomerpq <tomerpatum@gmail.com>
+Date:   Sun Jan 13 01:51:34 2019 +0200
+
+    BFS done
+
+commit 0f422d28d5b995a5ca9bb1e0a2ee3b9c2bef1c1b
+Merge: 3e61fbb 05b1596
+Author: eyalcohenx <eyalcohenx@gmail.com>
+Date:   Sun Jan 13 00:54:37 2019 +0200
+
+    Merge branch 'master' of https://github.com/Eyalcohenx/mileStone2
+
+commit 3e61fbb1e04a2918069a125ac34190eee0bd0503
+Author: eyalcohenx <eyalcohenx@gmail.com>
+Date:   Sun Jan 13 00:54:26 2019 +0200
+
+    updated server
+
+commit 05b1596c4141c0d91b3f954e728af8910a3386cf
+Author: tomerpq <tomerpatum@gmail.com>
+Date:   Sat Jan 12 23:47:09 2019 +0200
+
+    BFS done
+
+commit 5522ac83613dc335cc83e51661b12dc111e82c4f
+Author: tomerpq <tomerpatum@gmail.com>
+Date:   Sat Jan 12 18:09:56 2019 +0200
+
+    kkk
+
+commit 23dc3c2a577d776742b45709289cdda20a46dc86
+Author: tomerpq <tomerpatum@gmail.com>
+Date:   Fri Jan 11 22:00:05 2019 +0200
+
+    kkk
+
+commit 92e78682a4151f5abc0491ebb9e032d697819831
+Author: tomerpq <tomerpatum@gmail.com>
+Date:   Fri Jan 11 07:30:41 2019 -0800
+
+    kk
+
+commit 6226ab9bef33aaf2dc00feb2033b7ff2453e9380
+Author: tomerpq <tomerpatum@gmail.com>
+Date:   Thu Jan 10 13:15:03 2019 -0800
+
+    thursday 23:00
+
+commit 8acc75379ff6e78f130bb419e998b9dfa1736ee9
+Author: tomerpq <tomerpatum@gmail.com>
+Date:   Thu Jan 10 21:29:29 2019 +0200
+
+    algo temp push
+
+commit 7b8d8a885257ba7b6bae35849321d6a7470fa15e
+Author: eyalcohenx <eyalcohenx@gmail.com>
+Date:   Thu Jan 10 15:32:02 2019 +0200
+
+    deleted all cpp files
+    parallel server now works
+
+commit 6983f1eb5b53074a669da5a5c6ccbea5bd1eea2c
+Author: eyalcohenx <eyalcohenx@gmail.com>
+Date:   Thu Jan 10 10:22:12 2019 +0200
+
+    added thread pool need to understand how it works
+    deleted all cpp files
+
+commit c0575e7b92d3f752c974164c74334fc58c034f86
+Author: eyalcohenx <eyalcohenx@gmail.com>
+Date:   Thu Jan 10 00:29:02 2019 +0200
+
+    started working on server.
+
+commit 379e393114e3d20493deced695547c46b4d0bbfd
+Author: tomerpq <tomerpatum@gmail.com>
+Date:   Tue Jan 8 15:58:12 2019 -0800
+
+    almost all classes(Isearchable etc will be added in thursday)
+    added templates to Server,Solver,Handlers
+
+commit 9a0717dcaf0ee7d70e5ab7ce58eadc6bb4736fd1
+Author: tomerpq <tomerpatum@gmail.com>
+Date:   Tue Jan 8 14:15:18 2019 -0800
+
+    push1
+
+commit 1a3399aed8c4558c1997220a99e32b2431452253
+Author: tomerpq <tomerpatum@gmail.com>
+Date:   Mon Jan 7 13:20:49 2019 -0800
+
+    push1
+
+commit 51162a65dbe919feb95e0b20a11f98aa61c5dd9d
+Author: Eyalcohenx <45733588+Eyalcohenx@users.noreply.github.com>
+Date:   Mon Jan 7 23:10:11 2019 +0200
+
+    Initial commit

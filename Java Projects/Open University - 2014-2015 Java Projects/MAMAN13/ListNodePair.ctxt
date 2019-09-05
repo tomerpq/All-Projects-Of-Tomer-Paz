@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=a\ b
+comment0.target=ListNodePair(WordNode,\ WordNode)
+comment0.text=\r\n\ constructs\ an\ object\ that\ will\ point\ on\ 2\ (splitted)\ linked\ lists.\r\n\ @param\ a\ the\ list\ I\ head\r\n\ @param\ b\ the\ list\ II\ head\r\n
+comment1.params=
+comment1.target=WordNode\ x()
+comment1.text=\r\n\ returns\ the\ pointer\ to\ the\ splitted\ list\ I\r\n\ @return\ the\ pointer\ to\ the\ splitted\ list\ I\r\n
+comment2.params=
+comment2.target=WordNode\ y()
+comment2.text=\r\n\ returns\ the\ pointer\ to\ the\ splitted\ list\ II\r\n\ @return\ the\ pointer\ to\ the\ splitted\ list\ II\r\n
+numComments=3

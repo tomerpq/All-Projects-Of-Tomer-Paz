@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.params=args
+comment0.target=void\ main(java.lang.String[])
+comment0.text=the\ class\ calculates\ the\ radius,\ area,\ perimeter\ of\ the\ incircle\r\n\ and\ the\ excircle\ of\ the\ rectenagle\ by\ the\ cordinates\ discussed\r\n\ above\ put\ by\ the\ user.\r\n
+numComments=1

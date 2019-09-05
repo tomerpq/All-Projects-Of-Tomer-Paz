@@ -1,0 +1,7 @@
+C:\Users\Administrator\Desktop\ex1Working\ex1Working\obj\Debug\Excercise_1.csprojAssemblyReference.cache
+C:\Users\Administrator\Desktop\ex1Working\ex1Working\obj\Debug\Excercise_1.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\ex1Working\ex1Working\obj\Debug\ex1Working.exe
+C:\Users\Administrator\Desktop\ex1Working\ex1Working\obj\Debug\ex1Working.pdb
+C:\Users\Administrator\Desktop\ex1Working\ex1Working\bin\Debug\ex1Working.exe.config
+C:\Users\Administrator\Desktop\ex1Working\ex1Working\bin\Debug\ex1Working.exe
+C:\Users\Administrator\Desktop\ex1Working\ex1Working\bin\Debug\ex1Working.pdb

@@ -1,0 +1,1 @@
+Practicing java as my first language and when i started my way at computer science.

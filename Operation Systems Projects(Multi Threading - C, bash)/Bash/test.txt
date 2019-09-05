@@ -1,0 +1,3 @@
+this is a text file it .
+it contains many words.
+this is an example for it text file.

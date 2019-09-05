@@ -1,0 +1,389 @@
+commit 4ccf0d578e1e68711b7da5881e374039f37c5c41
+Author: Raphael Aben-Moha <rabenmoha@gmail.com>
+Date:   Sun Dec 30 21:24:23 2018 +0200
+
+    LAST BUGS FIX
+
+commit 36b22ef7f3590308f81e0b81feadb620ff4eae58
+Author: Raphael Aben-Moha <rabenmoha@gmail.com>
+Date:   Sun Dec 30 20:34:37 2018 +0200
+
+    Bugs fix
+
+commit 6e84e85f6975d94dcd404aeaea1f45e9aec43ae7
+Author: Raphael Aben-Moha <rabenmoha@gmail.com>
+Date:   Sat Dec 29 22:39:26 2018 +0200
+
+    Added virtual to all function in the h files
+
+commit 198fde3c4fb68413d3895fff98ad82c3759b8e41
+Author: Raphael Aben-Moha <rabenmoha@gmail.com>
+Date:   Sat Dec 29 21:59:07 2018 +0200
+
+    Last compilation bugs
+
+commit d237446aecd37b65c23da2d1d33426cb24ea4710
+Merge: 3738ba3 4bf72ba
+Author: Raphael Aben-Moha <rabenmoha@gmail.com>
+Date:   Sat Dec 29 21:41:45 2018 +0200
+
+    Merge remote-tracking branch 'origin/master'
+
+commit 3738ba33fff380b4a20e4641d324745a3762c829
+Author: Raphael Aben-Moha <rabenmoha@gmail.com>
+Date:   Sat Dec 29 21:41:17 2018 +0200
+
+    Modification in equal
+
+commit 4bf72baa675db0aa149548156361a8476bc54d31
+Merge: c4c33fa e3cc07e
+Author: tomerpq <tomerpatum@gmail.com>
+Date:   Sat Dec 29 21:31:12 2018 +0200
+
+    Merge branch 'master' of https://github.com/Raphitouch/first_step
+    
+    # Conflicts:
+    #	equalCommand.cpp
+
+commit c4c33fa4350faf0843c4e7e856dddfd96d347e6d
+Author: tomerpq <tomerpatum@gmail.com>
+Date:   Sat Dec 29 21:30:41 2018 +0200
+
+    Merge branch 'master' of https://github.com/Raphitouch/first_step
+    
+    # Please enter a commit message to explain why this merge is necessary,
+    # especially if it merges an updated upstream into a topic branch.
+    #
+    # Lines starting with '#' will be ignored, and an empty message aborts
+    # the commit.
+
+commit e3cc07e07805ffc9e398cfdcab06c2060eb29012
+Merge: dbe3e62 b068880
+Author: Raphael Aben-Moha <rabenmoha@gmail.com>
+Date:   Sat Dec 29 21:20:03 2018 +0200
+
+    Merge remote-tracking branch 'origin/master'
+
+commit dbe3e62518da8dbb088d4a0f6478e96733a63f43
+Author: Raphael Aben-Moha <rabenmoha@gmail.com>
+Date:   Sat Dec 29 21:19:40 2018 +0200
+
+    Dynamic binding for command
+
+commit 64f57ae31add24a4877fd476af57cadc5452f01b
+Author: Raphael Aben-Moha <rabenmoha@gmail.com>
+Date:   Sat Dec 29 21:15:16 2018 +0200
+
+    string* name changeged
+
+commit b0688806a0d4f5d174c55140ce326041aa8b8393
+Author: tomerpq <tomerpatum@gmail.com>
+Date:   Sat Dec 29 21:13:31 2018 +0200
+
+    Merge branch 'master' of https://github.com/Raphitouch/first_step
+    
+    # Please enter a commit message to explain why this merge is necessary,
+    # especially if it merges an updated upstream into a topic branch.
+    #
+    # Lines starting with '#' will be ignored, and an empty message aborts
+    # the commit.
+
+commit 4a166e37e34139e6713939374bd9c839c30e706d
+Author: Raphael Aben-Moha <rabenmoha@gmail.com>
+Date:   Sat Dec 29 21:09:07 2018 +0200
+
+    Get Expression Helper
+
+commit 3152dbf3bc7c3ab19f45a8c4e579c8629ed28c3a
+Merge: 1685c45 ca40ee6
+Author: tomerpq <tomerpatum@gmail.com>
+Date:   Sat Dec 29 21:04:54 2018 +0200
+
+    Merge remote-tracking branch 'origin/master'
+
+commit 1685c456d1a2c5e1aaf6229a741ca71ddf1ad0fc
+Author: tomerpq <tomerpatum@gmail.com>
+Date:   Sat Dec 29 21:03:26 2018 +0200
+
+    protected
+
+commit ca40ee66527e11e9b7276e8612911a03629f3351
+Author: Raphael Aben-Moha <rabenmoha@gmail.com>
+Date:   Sat Dec 29 20:44:56 2018 +0200
+
+    Minors modifications
+
+commit 3065c2cfc57d57baf99954489d218d35a71e01aa
+Author: Raphael Aben-Moha <rabenmoha@gmail.com>
+Date:   Sat Dec 29 19:58:28 2018 +0200
+
+    Shunting Yard minus case
+
+commit ed7dafb3f0ef35084ff842dea923f1096b6486fa
+Author: Raphael Aben-Moha <rabenmoha@gmail.com>
+Date:   Fri Dec 28 16:24:38 2018 +0200
+
+    Shunting Yard finished
+    Now we can begin to search for bugs ...
+    Good luck to us
+
+commit b250509da4580daf54b31bfcab7323ad27126d3a
+Author: Raphael Aben-Moha <rabenmoha@gmail.com>
+Date:   Fri Dec 28 14:34:47 2018 +0200
+
+    Shunting Yard almost finished
+
+commit 82eb2d594edf1ebf3c530df897f61e7d4e5785b0
+Author: Raphael Aben-Moha <rabenmoha@gmail.com>
+Date:   Thu Dec 27 10:06:52 2018 +0200
+
+    Added mutex to connect
+
+commit 6479eee010dff3bded2a7e0be13fe4adde9eca1f
+Author: Raphael Aben-Moha <rabenmoha@gmail.com>
+Date:   Thu Dec 27 10:05:45 2018 +0200
+
+    Finally connect command !!
+    The last of the list of commands
+
+commit aa398f3ac61f3a21f147878f09c2be70d5e512a9
+Author: Raphael Aben-Moha <rabenmoha@gmail.com>
+Date:   Thu Dec 27 09:38:15 2018 +0200
+
+    Modifications on commands : we need them to send data to connect which will send actual data to simulator
+
+commit b42c967cc1a8d467fe3879cc78d9c59bab88af59
+Author: Raphael Aben-Moha <rabenmoha@gmail.com>
+Date:   Thu Dec 27 04:49:39 2018 +0200
+
+    Little modification on DataRederServer
+
+commit 2421dafdace81171f307714e53dcbc853667b184
+Author: Raphael Aben-Moha <rabenmoha@gmail.com>
+Date:   Thu Dec 27 04:27:01 2018 +0200
+
+    Fixed function call of openServerCommand ConnectCommand
+    Also delete ifcommand
+
+commit 6a773be9f15629c259513d5816d3fb639fe973cf
+Author: Raphael Aben-Moha <rabenmoha@gmail.com>
+Date:   Thu Dec 27 04:03:12 2018 +0200
+
+    Correct actualisation of data from Data Reader
+
+commit e5d7642fa894d35f3589a360ea34429cb803b73d
+Merge: 610ae78 36e5104
+Author: tomerpq <tomerpatum@gmail.com>
+Date:   Wed Dec 26 15:53:38 2018 -0800
+
+    Merge remote-tracking branch 'origin/master'
+
+commit 610ae7818c2fe176da233cc83bedfc240bdb7f34
+Author: tomerpq <tomerpatum@gmail.com>
+Date:   Wed Dec 26 15:53:10 2018 -0800
+
+    almost finished expressions
+
+commit 36e51045d15896de7d579af7dc06d3ac92cdd426
+Author: Raphael Aben-Moha <rabenmoha@gmail.com>
+Date:   Thu Dec 27 01:38:38 2018 +0200
+
+    Equal command fixed !
+    Comport now unbind addresse case
+
+commit 010ca01645afdfd95760e29c42a7a75642cd660f
+Author: Raphael Aben-Moha <rabenmoha@gmail.com>
+Date:   Thu Dec 27 00:23:44 2018 +0200
+
+    Equal command fixed !
+    All cases : bind with address with variable or expression.
+
+commit d0a6e93b66cad6528f11abe70ea916943c657dd2
+Author: Raphael Aben-Moha <rabenmoha@gmail.com>
+Date:   Wed Dec 26 23:54:19 2018 +0200
+
+    Print command is ready
+
+commit ee84ba1b46d5531c5497104525af0785f9eca72d
+Author: Raphael Aben-Moha <rabenmoha@gmail.com>
+Date:   Wed Dec 26 22:55:42 2018 +0200
+
+    No more print message in the class
+
+commit 6f8ead9a32ca752b1e48b8921747fcf9afd6c888
+Author: Raphael Aben-Moha <rabenmoha@gmail.com>
+Date:   Wed Dec 26 22:49:47 2018 +0200
+
+    Actualisation of open data server
+    Thread fixed (finally !!!!!!)
+
+commit 4e699b2600bc5f52027e43077ff20b3b500e213c
+Author: Raphael Aben-Moha <rabenmoha@gmail.com>
+Date:   Wed Dec 26 20:14:40 2018 +0200
+
+    Actualisation of varCommand.
+    Bux fixed
+
+commit 94fb5b3a167dd4390368b581673268cdbb04aac6
+Author: Raphael Aben-Moha <rabenmoha@gmail.com>
+Date:   Wed Dec 26 13:15:54 2018 +0200
+
+    Actualisation of varCommand. Now var command does support two new functions depends of equal symbol after var or not.
+    In case there is, we will call for equal execute, in case there is not we will just add new variable in symbol table with 0 as value.
+
+commit 5414666f8e1f080078c5d19ab82cafa65102628e
+Merge: 4712ff9 5fc9595
+Author: tomerpq <tomerpatum@gmail.com>
+Date:   Tue Dec 25 15:54:22 2018 -0800
+
+    Merge remote-tracking branch 'origin/master'
+
+commit 4712ff963173931df138ab39728b560b0acade00
+Author: tomerpq <tomerpatum@gmail.com>
+Date:   Tue Dec 25 15:52:42 2018 -0800
+
+    update all tomer's constructors.
+
+commit 5fc95953f96a701c07701b3d9217d014f52f79f8
+Merge: 9864e84 30c5e27
+Author: Raphael Aben-Moha <rabenmoha@gmail.com>
+Date:   Tue Dec 25 12:56:52 2018 +0200
+
+    Merge remote-tracking branch 'origin/master'
+
+commit 9864e84cef1a93520169fbc8a05190016ffd0d06
+Author: Raphael Aben-Moha <rabenmoha@gmail.com>
+Date:   Tue Dec 25 12:56:05 2018 +0200
+
+    The command classes.
+    For those, we need the Parser to have two maps :
+    One symbolTable which will be <String , Double> with name of variable in
+    string and current value in double.
+    The second addressTable <String , String> will have the name of variable
+    and the bind address in simulator.
+
+commit 30c5e2769af6d6791dfc229646b01627bf16f978
+Author: tomerpq <tomerpatum@gmail.com>
+Date:   Mon Dec 24 16:03:19 2018 -0800
+
+    almost finished expressions
+
+commit ad1685bd69cedb524b4a383e1aa34f7620671dc2
+Author: Raphael Aben-Moha <rabenmoha@gmail.com>
+Date:   Mon Dec 24 18:34:19 2018 +0200
+
+    DataReaderServer does work at weel.
+    Now with the new directions from Eli about the thread, I need to check for a new way for OpenServerCommand.
+    Meanwhile I will continue other class like equalCommand ...
+
+commit a9989cd5cc188cc050100c6e266f388731d80b6c
+Author: tomerpq <tomerpatum@gmail.com>
+Date:   Mon Dec 24 00:15:48 2018 +0200
+
+    update with almost finished expression
+    lexer with print getting all string after print in one index of the string array
+
+commit d8a6902fca4bb141415f24890e3b273bfc646a1b
+Author: tomerpq <tomerpatum@gmail.com>
+Date:   Sun Dec 23 18:40:59 2018 +0200
+
+    update main
+
+commit dc41e8bb10e6f22a4e67ae66c324536263b0816e
+Author: tomerpq <tomerpatum@gmail.com>
+Date:   Sun Dec 23 04:01:26 2018 +0200
+
+    update all1
+
+commit b21ef573edb7795f051d54d540e64a909e40460c
+Author: tomerpq <tomerpatum@gmail.com>
+Date:   Sat Dec 22 21:14:41 2018 +0200
+
+    update all2
+
+commit 71942efd5864f668fbc0885f6a7fafdf698bfee4
+Merge: a744f41 4fafa6b
+Author: tomerpq <tomerpatum@gmail.com>
+Date:   Sat Dec 22 19:47:44 2018 +0200
+
+    Merge remote-tracking branch 'origin/master'
+    
+    # Conflicts:
+    #	CMakeLists.txt
+    #	Command.h
+
+commit a744f41fb9fa5b98bcd12c16ab9b1de2ef4a52dc
+Author: tomerpq <tomerpatum@gmail.com>
+Date:   Sat Dec 22 19:44:44 2018 +0200
+
+    update all1
+
+commit 4fafa6b7afa6b6a7f9a2a36adc4cc5a9a9648abe
+Author: Raphael Aben-Moha <rabenmoha@gmail.com>
+Date:   Fri Dec 21 03:44:24 2018 +0200
+
+     Modifications qui seront validées :
+
+commit a28dc08d74c31521fd6a1fc1bac70d93334acc56
+Author: Raphael Aben-Moha <rabenmoha@gmail.com>
+Date:   Wed Dec 19 11:19:13 2018 +0200
+
+    The command classes.
+    For those, we need the Parser to have two maps :
+    One symbolTable which will be <String , Double> with name of variable in
+    string and current value in double.
+    The second addressTable <String , String> will have the name of variable
+    and the bind address in simulator.
+
+commit 71f33a70e168bea351a7e007d8cb02b2ec23bf6f
+Author: tomerpq <tomerpatum@gmail.com>
+Date:   Sun Dec 16 00:29:06 2018 +0200
+
+    update Lexer
+
+commit ddeed4aa002a21f486544dde24e4d9cb19b4f55f
+Author: tomerpq <tomerpatum@gmail.com>
+Date:   Sun Dec 16 00:22:08 2018 +0200
+
+    update Lexer
+
+commit e1fc55b8e4f0e55e32dd61f03289028fc2824108
+Author: tomerpq <tomerpatum@gmail.com>
+Date:   Sat Dec 15 23:04:52 2018 +0200
+
+    update Lexer
+
+commit 5ae086b39cb1df74fb1b78e84bf99211389d0e77
+Author: tomerpq <tomerpatum@gmail.com>
+Date:   Fri Dec 14 19:31:21 2018 +0200
+
+    update Lexer
+
+commit 9e9fdc22478143510a0a160d519b64bb9ca09115
+Author: tomerpq <tomerpatum@gmail.com>
+Date:   Thu Dec 13 20:15:27 2018 +0200
+
+    sdasda
+
+commit fe14f1ecf3b3e67c964476a166a694289814d658
+Author: Raphael Aben-Moha <rabenmoha@gmail.com>
+Date:   Thu Dec 13 04:43:52 2018 +0200
+
+    first commit
+
+commit d89e861f7d685a8f521afd0dc89373a9b124d2cb
+Author: Raphael Aben-Moha <rabenmoha@gmail.com>
+Date:   Thu Dec 13 04:35:34 2018 +0200
+
+    The command classes.
+    For those, we need the Parser to have two maps :
+    One symbolTable which will be <String , Double> with name of variable in
+    string and current value in double.
+    The second addressTable <String , String> will have the name of variable
+    and the bind address in simulator.
+
+commit 87da6ef8f4e126afeed6c8e3d4010bfab55f9015
+Author: Raphael Aben-Moha <rabenmoha@gmail.com>
+Date:   Mon Dec 10 23:47:48 2018 +0200
+
+    hello tomer

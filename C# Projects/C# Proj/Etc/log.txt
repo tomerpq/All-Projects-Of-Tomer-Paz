@@ -1,0 +1,53 @@
+commit d49ef5c172a895635bd17b186f53fbc3e780f4ed
+Author: Administrator <Administrator@TOMERPC>
+Date:   Mon Mar 18 01:14:39 2019 +0200
+
+    finished
+
+commit 167ba41ec5d033e1408e3c909dc1a2d6b232edfd
+Author: Administrator <Administrator@TOMERPC>
+Date:   Sun Mar 17 01:18:33 2019 +0200
+
+    need comments only
+
+commit 22b689869c14eee187faa1f4f851213e632c013a
+Author: Administrator <Administrator@TOMERPC>
+Date:   Sat Mar 16 13:27:42 2019 +0200
+
+    sat
+
+commit f61814bc32f375dd69252f12850398261b6eab69
+Author: Administrator <Administrator@TOMERPC>
+Date:   Wed Mar 13 22:54:47 2019 +0200
+
+    last wed
+
+commit e45cd7bb7e9f895d894ade0676d94900fd8085cb
+Author: Administrator <Administrator@TOMERPC>
+Date:   Wed Mar 13 22:02:23 2019 +0200
+
+    start working on ex1
+
+commit ab2d5597ae6c0ac6ddf24f0509d518007157083e
+Author: Administrator <Administrator@TOMERPC>
+Date:   Wed Mar 13 21:41:37 2019 +0200
+
+    push2
+
+commit d5a654f1fbb586d513ec9866d0e421702dfbeb83
+Author: Administrator <Administrator@TOMERPC>
+Date:   Wed Mar 13 21:33:54 2019 +0200
+
+    first commit
+
+commit 359361b82b85e130c89a9bb04a0fd9d5dbdf8162
+Author: Administrator <Administrator@TOMERPC>
+Date:   Wed Mar 13 20:44:55 2019 +0200
+
+    Add project files.
+
+commit 37f1cef425eabb652e38da9ed7dfdffef1aaa7d1
+Author: Administrator <Administrator@TOMERPC>
+Date:   Wed Mar 13 20:44:51 2019 +0200
+
+    Add .gitignore and .gitattributes.

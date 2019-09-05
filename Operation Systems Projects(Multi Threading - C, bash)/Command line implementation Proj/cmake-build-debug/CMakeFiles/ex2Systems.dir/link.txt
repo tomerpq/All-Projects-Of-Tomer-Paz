@@ -1,0 +1,1 @@
+/usr/bin/cc  -Wall -Wpedantic -Wextra -Werror -g   CMakeFiles/ex2Systems.dir/ex2.c.o  -o ex2Systems 

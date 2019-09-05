@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.params=arr
+comment0.target=boolean\ T(int[])
+comment1.params=a\ index
+comment1.target=boolean\ T(int[],\ int)
+comment10.params=args
+comment10.target=void\ main(java.lang.String[])
+comment2.params=a\ x
+comment2.target=boolean\ isSum(Range[],\ int)
+comment3.params=a\ x
+comment3.target=boolean\ isSum2(Range[],\ int)
+comment4.params=s\ f
+comment4.target=int\ fun1(java.lang.String,\ int)
+comment5.params=s\ i
+comment5.target=java.lang.String\ fun2(java.lang.String,\ int)
+comment6.params=s
+comment6.target=java.lang.String\ something(java.lang.String)
+comment7.params=mat
+comment7.target=void\ printPath(int[][])
+comment8.params=mat\ row\ col\ value\ print
+comment8.target=void\ printPath(int[][],\ int,\ int,\ int,\ java.lang.String)
+comment9.params=arr
+comment9.target=int\ findMax(int[])
+numComments=11

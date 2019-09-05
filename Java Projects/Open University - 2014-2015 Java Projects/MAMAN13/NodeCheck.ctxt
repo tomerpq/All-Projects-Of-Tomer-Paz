@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=a\ b
+comment0.target=int\ min(int,\ int)
+comment1.params=t
+comment1.target=boolean\ isLeaf(Node)
+comment2.params=t
+comment2.target=int\ f(Node)
+comment3.params=t
+comment3.target=Node\ what(Node)
+comment4.params=t\ num
+comment4.target=Node\ what(Node,\ int)
+comment5.params=args
+comment5.target=void\ main(java.lang.String[])
+numComments=6

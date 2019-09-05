@@ -1,0 +1,1 @@
+Projects to practice experienced java. the GUI Project was the last and biggest of them(the final project)

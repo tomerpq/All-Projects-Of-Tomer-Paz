@@ -1,0 +1,193 @@
+﻿@{
+                /**/
+
+                ViewBag.Title = "display";
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="~/Scripts/jquery-1.10.2.min.js"></script>
+    <script src="~/Scripts/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="~/Content/Site.css">
+    <title>display 1Or4</title>
+</head>
+<body>
+    <div id="container">
+        <img id="imageCanvas" src="~/export-map-share.png" />
+        <canvas id="canvas"></canvas>
+    </div>
+
+    <script>
+        large();
+        @{
+            var cond = ViewBag.cond;
+            var co = ViewBag.cond2;
+            var ms = ViewBag.ms;
+            var times = ViewBag.times;
+        }
+
+        function large() {
+
+            if ((@co) == 0) {//display1:
+                var canvas2 = document.getElementById("canvas");
+                var ctx2 = canvas2.getContext("2d");
+                const image = document.getElementById("imageCanvas");
+                drawImageActualSize();
+
+                //drawing the map image
+                function drawImageActualSize() {
+                    canvas2.width = 4160;
+                    canvas2.height = 2164;
+
+                    //creating interval and counter for the animation
+                    pos = 0;
+                    secondCanv();
+                }
+
+                function secondCanv() {
+                    //asking server for route list
+                    $.ajax({
+                        type: "GET",
+                        url: "@Url.Action("getRoute", "Flight")",
+                        dataType: "json",
+                        success: function (result) {
+                            //sending list to drawall
+                            drawAll(result);
+                        },
+                        error: function (response) {
+                            alert('eror');
+                        }
+                    });
+                }
+
+                function drawAll(result) {
+
+                    points = result.route;
+
+                    //clearing the canvas
+                    ctx2.clearRect(0, 0, canvas2.width, canvas2.height);
+
+                    //sending last point to put the red dot on it
+                    var lastPoint = { X: points[points.length - 1].X, Y: points[points.length - 1].Y };
+                    drawd(lastPoint)
+                }
+
+                function drawd(p) {
+                    //loading red dot only after loaing map
+
+                    drawDot();
+                    //srawing the red dot
+                    function drawDot() {
+                        ctx2.beginPath();
+                        ctx2.arc(p.X, p.Y, 15, -10, 2 * Math.PI);
+                        ctx2.fillStyle = "#595959";
+                        ctx2.fill();
+                        ctx2.beginPath();
+                        ctx2.arc(p.X, p.Y, 8, -10, 2 * Math.PI);
+                        ctx2.fillStyle = "red";
+                        ctx2.fill();
+                    }
+                }
+            }
+            else{//display4 :
+
+                //creating canvases one for the picture of the map and the other for the red dot
+                var canvas2 = document.getElementById("canvas");
+                var ctx2 = canvas2.getContext("2d");
+                image = document.getElementById("imageCanvas");
+                drawImageActualSize();
+
+                //drawing the map image
+                function drawImageActualSize() {
+                    canvas2.width = 4160;
+                    canvas2.height = 2164;
+
+                    //creating interval and counter for the animation
+                    pos = 0;
+                    id = setInterval(secondCanv, @ms);
+                }
+
+                function secondCanv() {
+                    //asking server for route list
+                    $.ajax({
+                        type: "GET",
+                        url: "@Url.Action("readRouteFromFile", "Flight")",
+                        dataType: "json",
+                        success: function (result) {
+
+                            //sending list to drawall
+                            drawAll(result)
+                        },
+                        error: function (response) {
+                            alert('eror');
+                        }
+                    });
+                }
+
+                function drawAll(result) {
+                    var funcDone = 0;
+                    points = result.route;
+
+                    //checking if file read is done, if yes - alerting
+                    var checkIfDone = { X: points[points.length - 1].X, Y: points[points.length - 1].Y };
+                    if (checkIfDone.X > 5000 && checkIfDone.Y > 3000) {
+                        funcDone = 1;
+                        clear = false;
+                        alert("The file Reading is done!");
+                        clearInterval(id);
+                    }
+                    if (funcDone == 0) {
+
+                        //clearing the canvas
+                        ctx2.clearRect(0, 0, canvas2.width, canvas2.height);
+
+                        //loop to draw the route
+                        var i;
+                        for (i = 1; i < points.length; i++) {
+
+                            var startx = points[i - 1].X;
+                            var starty = points[i - 1].Y;
+                            var endx = points[i].X;
+                            var endy = points[i].Y;
+
+                            ctx2.strokeStyle = "#FF0000";
+                            ctx2.lineWidth = 5;
+                            ctx2.beginPath();
+                            ctx2.moveTo(startx, starty);
+                            ctx2.lineTo(endx, endy);
+                            ctx2.stroke();
+                        }
+
+                        //sending last point to put the red dot on it
+                        var lastPoint = { X: points[points.length - 1].X, Y: points[points.length - 1].Y };
+                        drawd(lastPoint)
+                    }
+                }
+
+                function drawd(p) {
+                    //loading red dot only after loaing map
+                    drawDot();
+                    //srawing the red dot
+                    function drawDot() {
+                        ctx2.beginPath();
+                        ctx2.arc(p.X, p.Y, 15, -10, 2 * Math.PI);
+                        ctx2.fillStyle = "#595959";
+                        ctx2.fill();
+                        ctx2.beginPath();
+                        ctx2.arc(p.X, p.Y, 8, -10, 2 * Math.PI);
+                        ctx2.fillStyle = "red";
+                        ctx2.fill();
+                    }
+
+                    //checking if the time is finished
+                    if (pos == @times) {
+                        clearInterval(id);
+                    } else {
+                        pos += @ms;
+                    }
+                }
+            }
+        }
+    </script>
+</body>
+</html>

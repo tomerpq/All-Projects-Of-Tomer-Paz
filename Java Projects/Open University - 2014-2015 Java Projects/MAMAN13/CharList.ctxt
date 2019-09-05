@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=
+comment0.target=CharList()
+comment1.params=list1\ list2
+comment1.target=boolean\ isTrans(CharList,\ CharList)
+comment2.params=pointer1\ pointer2
+comment2.target=boolean\ isTrans(CharNode,\ CharNode)
+numComments=3

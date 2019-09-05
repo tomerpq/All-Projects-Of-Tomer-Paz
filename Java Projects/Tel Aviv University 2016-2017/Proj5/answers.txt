@@ -1,0 +1,18 @@
+isPalindrome: 
+not ok-
+first of all no need to check if a is null cuz of @pre.
+second- for palindrome : "abba", the method needs to return true because
+the boolean statment in the "@post" is true. and the method returns false. wrong.
+
+sum:
+ok
+
+average:
+not ok:
+cuz data my be new double[]{} with data.length == 0
+and then we get naN and defintly not data[0] +... + data[data.length -1 == -1]
+
+roots:
+ok.
+unnecceriy check of if a == 0
+but rest is ok and method is accepting the contract.

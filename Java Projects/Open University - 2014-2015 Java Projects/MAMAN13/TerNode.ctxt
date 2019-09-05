@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=number
+comment0.target=TerNode(int)
+comment1.params=
+comment1.target=int\ getNumber()
+comment2.params=
+comment2.target=TerNode\ getLeftSon()
+comment3.params=
+comment3.target=TerNode\ getMiddleSon()
+comment4.params=
+comment4.target=TerNode\ getRightSon()
+comment5.params=number
+comment5.target=void\ setNumber(int)
+comment6.params=node
+comment6.target=void\ setLeftSon(TerNode)
+comment7.params=node
+comment7.target=void\ setMiddleSon(TerNode)
+comment8.params=node
+comment8.target=void\ setRightSon(TerNode)
+numComments=9

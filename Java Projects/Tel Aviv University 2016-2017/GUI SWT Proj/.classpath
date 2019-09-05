@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="hw_10/10/1_riddles"/>
+	<classpathentry kind="src" path="hw_10/10/2_bus_tickets"/>
+	<classpathentry kind="src" path="hw_10/10/3_point"/>
+	<classpathentry kind="src" path="hw_10/10/4_trivia/trivia"/>
+	<classpathentry kind="lib" path="hw_10/10/4_trivia/Trivia.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

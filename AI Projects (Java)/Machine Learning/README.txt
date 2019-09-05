@@ -1,0 +1,1 @@
+Code in machine learning of solving table - information table using some of machine learning algorithms.

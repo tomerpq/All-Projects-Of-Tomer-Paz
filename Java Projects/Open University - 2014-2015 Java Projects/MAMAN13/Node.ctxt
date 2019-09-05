@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=number
+comment0.target=Node(int)
+comment1.params=number\ left\ right
+comment1.target=Node(int,\ Node,\ Node)
+comment2.params=
+comment2.target=int\ getNumber()
+comment3.params=
+comment3.target=Node\ getLeftSon()
+comment4.params=
+comment4.target=Node\ getRightSon()
+comment5.params=node
+comment5.target=void\ setRightSon(Node)
+comment6.params=node
+comment6.target=void\ setLeftSon(Node)
+numComments=7

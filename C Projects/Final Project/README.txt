@@ -1,0 +1,1 @@
+Project in C - made of two partners - the outcome is a big GUI of interactive sodoku game with alot of options and options like redo,undo saving and modes for the game. the work on it was for a whole semester.

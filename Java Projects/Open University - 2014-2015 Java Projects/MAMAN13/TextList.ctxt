@@ -1,0 +1,35 @@
+#BlueJ class context
+comment0.params=
+comment0.target=TextList()
+comment0.text=\r\n\ Time\ complexity\ \=\ O(1),\ Space\ complexity\ \=\ O(1)\r\n\ empty\ constructor\ that\ makes\ empty\ list\r\n
+comment1.params=text
+comment1.target=TextList(java.lang.String)
+comment1.text=\r\n\ Time\ complexity\ \=\ O(nlog(n)),\ Space\ complexity\ \=\ O(n)-(of\ the\ heap)\ n-is\ the\ num\ of\ words.\r\n\ 1.this\ contructor\ builds\ a\ list\ from\ all\ the\ words\ in\ the\ text\r\n\ 2.sorts\ the\ words\ in\ the\ list\ to\ get\ lexicography\ sorted\ list\r\n\ 3.remove\ words\ that\ appears\ twice\ and\ adds\ to\ it\ the\ number\ it\ shows.(the\ dafult\ is\ 1-appear\ 1\ time\ in\ the\ text)\r\n\ if\ text\ is\ empty\ string\ the\ linked\ list\ will\ be\ empty\ list\r\n\ @param\ text\ the\ text\ inserted\ made\ of\ small\ english\ letters\ and\ spaces\ between\ words.\r\n
+comment10.params=pointer\ w\ arrN
+comment10.target=int[]\ buildIntArray(WordNode,\ java.lang.String,\ int[])
+comment11.params=
+comment11.target=java.lang.String\ toString()
+comment11.text=\r\n\ Time\ complexity\ \=\ O(n),\ Space\ complexity\ \=\ O(1)\ n-words\r\n\ returns\ a\ string\ representing\ the\ words\ in\ the\ linked\ list-\r\n\ the\ word\ in\ lexi\ order\ +\ tab\ +\ the\ number\ it\ shows\ in\ the\ text\ then\ goes\ to\ next\ line.\r\n\ if\ the\ list\ is\ empty\ empty\ string\ will\ be\ returned\r\n\ @return\ the\ words\ in\ the\ list\ ordered\ lexi\ and\ the\ number\ they\ show.\r\n
+comment2.params=word
+comment2.target=void\ addToData(java.lang.String)
+comment2.text=\r\n\ Time\ complexity\ \=\ O(n),\ Space\ complexity\ \=\ O(1)\ n-words\r\n\ this\ method\ add\ a\ word\ to\ the\ list(the\ list\ with\ the\ new\ word\ keeps\r\n\ the\ lexi\ order,and\ no\ double\ words(if\ same\ word\ inserted\ that\ word\ will\r\n\ have\ bigger\ num))\r\n\ if\ the\ word\ is\ empty\ string\ nothing\ will\ happen\r\n\ @param\ word\ the\ word\ inserted\ (same\ terms\ as\ in\ the\ constructor\ for\ the\ text\ string)\r\n
+comment3.params=
+comment3.target=int\ howManyWords()
+comment3.text=\r\n\ Time\ complexity\ \=\ O(n),\ Space\ complexity\ \=\ O(1)\ n-words\r\n\ the\ method\ return\ the\ number\ of\ the\ words\ in\ the\ list\r\n\ @return\ number\ of\ all\ the\ words\ in\ the\ list\r\n
+comment4.params=
+comment4.target=int\ howManyDifferentWords()
+comment4.text=\r\n\ Time\ complexity\ \=\ O(n),\ Space\ complexity\ \=\ O(1)\ n-words\r\n\ the\ method\ returns\ the\ number\ of\ different\ words\ in\ the\ list\r\n\ @return\ the\ number\ of\ different\ words\ in\ the\ list\r\n
+comment5.params=
+comment5.target=java.lang.String\ mostFrequentWord()
+comment5.text=\r\n\ Time\ complexity\ \=\ O(n),\ Space\ complexity\ \=\ O(1)\ n-words\r\n\ the\ methods\ returns\ the\ most\ frequent\ word.\r\n\ if\ theres\ two\ it\ returns\ the\ smaller\ lexi\ word.\r\n\ if\ the\ list\ is\ empty\ empty\ string\ will\ be\ returned\r\n\ @return\ the\ most\ frequent\ word.\r\n
+comment6.params=letter
+comment6.target=int\ howManyStarting(char)
+comment6.text=\r\n\ Time\ complexity\ \=\ O(n),\ Space\ complexity\ \=\ O(1)\ n-words\r\n\ the\ method\ gets\ letter\ from\ (a-z)\ and\ returns\ the\ num\ of\ words\ starting\ with\ this\ letter\r\n\ @param\ letter\ the\ letter\ inserted\ to\ check\ how\ many\ words\ starts\ with\ it\r\n\ @return\ the\ num\ words\ starts\ with\ 'letter'\r\n
+comment7.params=
+comment7.target=char\ mostFrequentStartingLetter()
+comment7.text=\r\n\ recursive\ method\ that\ returns\ the\ letter\ that\ is\ the\ head\ of\ most\ of\ the\ words\r\n\ in\ the\ list.\r\n\ if\ theres\ two\ letters\ like\ that-the\ smaller\ lexi\ letter\ will\ be\ returned.\r\n\ if\ the\ list\ is\ empty\ space\ char\ will\ be\ returned\r\n\ @return\ the\ most\ frequent\ starting\ letter\ of\ the\ words\r\n
+comment8.params=arrN\ arrIndex\ count\ check\ letter
+comment8.target=char\ mostFrequentStartingLetter(int[],\ int,\ int,\ char,\ char)
+comment9.params=
+comment9.target=int[]\ buildIntArray()
+numComments=12

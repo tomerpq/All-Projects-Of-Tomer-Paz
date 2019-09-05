@@ -1,0 +1,2 @@
+Script from file (Example of script in the src folder)
+Main receive script as name of file in argv[0]

@@ -1,0 +1,30 @@
+#BlueJ class context
+comment0.params=word\ num\ next
+comment0.target=WordNode(java.lang.String,\ int,\ WordNode)
+comment0.text=\r\n\ this\ constructor\ builts\ new\ node\ with\ word,number\ of\ it\ appearing\ in\ the\ text,and\ connection\ to\ the\ next\ node.\r\n\ @param\ word\ the\ word\ the\ node\ has\r\n\ @param\ num\ the\ number\ of\ the\ word\ appearing\ in\ the\ text\r\n\ @param\ next\ the\ next\ node\ connected\ to\ it\ (no\ connected-text\ \=\ null)\r\n
+comment1.params=
+comment1.target=WordNode\ getNext()
+comment1.text=\r\n\ return\ the\ next\ node\ connected\ to\ this\ node\r\n\ @return\ the\ next\ node\r\n
+comment2.params=node
+comment2.target=void\ setNext(WordNode)
+comment2.text=\r\n\ set\ the\ next\ node\ to\ be\ the\ node\ inserted\r\n\ @param\ node\ the\ next\ node\r\n
+comment3.params=
+comment3.target=java.lang.String\ getWord()
+comment3.text=\r\n\ return\ the\ word\ that\ the\ node\ has\r\n\ @return\ the\ node's\ word\r\n
+comment4.params=word
+comment4.target=void\ setWord(java.lang.String)
+comment4.text=\r\n\ set\ the\ word\ in\ the\ node\ to\ be\ the\ node\ inserted\r\n\ @param\ word\ the\ word\ to\ be\ set\r\n
+comment5.params=
+comment5.target=int\ getNum()
+comment5.text=\r\n\ gets\ the\ number\ of\ the\ word\ in\ the\ node\ appearing\ in\ the\ whole\ text\r\n\ @return\ the\ number\ of\ the\ word\ in\ the\ node\ appears\ in\ the\ whole\ text\r\n
+comment6.params=num
+comment6.target=void\ setNum(int)
+comment6.text=\r\n\ sets\ the\ number\ the\ word\ shows\ in\ the\ whole\ text\ in\ the\ node\r\n\ @param\ num\ the\ number\ that\ the\ word\ in\ the\ node\ appears\ in\ the\ whole\ text\ to\ be\ set\r\n
+comment7.params=h
+comment7.target=WordNode\ mergeSort(WordNode)
+comment7.text=\r\n\ Time\ complexity\ \=\ O(nlog(n)),\ Space\ complexity\ \=\ O(log(n))\r\n\ the\ method\ sorts\ the\ linked\ list's\ words\ in\ the\ TextList\ class\r\n\ in\ lexicography\ order.\r\n\ @param\ h\ the\ head\ of\ the\ list\ to\ be\ sorted\r\n\ @return\ the\ head\ of\ the\ list(means\ return\ the\ list)\ sorted\ lexicography.\r\n
+comment8.params=
+comment8.target=ListNodePair\ split()
+comment9.params=L
+comment9.target=WordNode\ merge(WordNode)
+numComments=10

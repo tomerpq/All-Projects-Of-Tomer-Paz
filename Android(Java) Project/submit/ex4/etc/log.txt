@@ -1,0 +1,128 @@
+commit 2b85dcc39a17c14a8d8c8fbe8cd671b19a6ccede (HEAD -> master, origin/master, origi
+n/HEAD)
+Author: Eyal Cohen <Eyalcohenx@gmail.com>
+Date:   Sun Jun 23 11:41:01 2019 +0300
+
+    Last commit for the Semester!!!
+
+commit 75e5ca18e31e62666527a7fd2d2a40c918eb18f6
+Author: Administrator <Administrator@TOMERPC>
+Date:   Fri Jun 21 04:05:10 2019 +0300
+
+    tomer last push in tichnut mitkadem!
+:...skipping...
+commit 2b85dcc39a17c14a8d8c8fbe8cd671b19a6ccede (HEAD -> master, origin/master, origi
+n/HEAD)
+Author: Eyal Cohen <Eyalcohenx@gmail.com>
+Date:   Sun Jun 23 11:41:01 2019 +0300
+
+    Last commit for the Semester!!!
+
+commit 75e5ca18e31e62666527a7fd2d2a40c918eb18f6
+Author: Administrator <Administrator@TOMERPC>
+Date:   Fri Jun 21 04:05:10 2019 +0300
+
+    tomer last push in tichnut mitkadem!
+    until we meet again
+    see ya in the next courses
+
+commit 27610f05d8d9a628bc345ab76ee9a846c9e50dea
+Author: Eyal Cohen <Eyalcohenx@gmail.com>
+Date:   Fri Jun 21 01:33:26 2019 +0300
+
+    connect is now working.
+    need to fix the rotating issue.
+
+:...skipping...
+commit 2b85dcc39a17c14a8d8c8fbe8cd671b19a6ccede (HEAD -> master, origin/master, origi
+n/HEAD)
+Author: Eyal Cohen <Eyalcohenx@gmail.com>
+Date:   Sun Jun 23 11:41:01 2019 +0300
+
+    Last commit for the Semester!!!
+
+commit 75e5ca18e31e62666527a7fd2d2a40c918eb18f6
+Author: Administrator <Administrator@TOMERPC>
+Date:   Fri Jun 21 04:05:10 2019 +0300
+
+    tomer last push in tichnut mitkadem!
+    until we meet again
+    see ya in the next courses
+
+commit 27610f05d8d9a628bc345ab76ee9a846c9e50dea
+Author: Eyal Cohen <Eyalcohenx@gmail.com>
+Date:   Fri Jun 21 01:33:26 2019 +0300
+
+    connect is now working.
+    need to fix the rotating issue.
+
+commit 6d9c6e9880704469d6b9e24f3a99f59b2f891ece
+Author: Eyal Cohen <Eyalcohenx@gmail.com>
+Date:   Thu Jun 20 19:20:00 2019 +0300
+
+    connect with set is ready
+
+:...skipping...
+commit 2b85dcc39a17c14a8d8c8fbe8cd671b19a6ccede (HEAD -> master, origin/master, origi
+n/HEAD)
+Author: Eyal Cohen <Eyalcohenx@gmail.com>
+Date:   Sun Jun 23 11:41:01 2019 +0300
+
+    Last commit for the Semester!!!
+
+commit 75e5ca18e31e62666527a7fd2d2a40c918eb18f6
+Author: Administrator <Administrator@TOMERPC>
+Date:   Fri Jun 21 04:05:10 2019 +0300
+
+    tomer last push in tichnut mitkadem!
+    until we meet again
+    see ya in the next courses
+
+commit 27610f05d8d9a628bc345ab76ee9a846c9e50dea
+Author: Eyal Cohen <Eyalcohenx@gmail.com>
+Date:   Fri Jun 21 01:33:26 2019 +0300
+
+    connect is now working.
+    need to fix the rotating issue.
+
+commit 6d9c6e9880704469d6b9e24f3a99f59b2f891ece
+Author: Eyal Cohen <Eyalcohenx@gmail.com>
+Date:   Thu Jun 20 19:20:00 2019 +0300
+
+    connect with set is ready
+
+commit cc81a04fae96e81d0146946091a8363d8070e0ce
+Author: Administrator <Administrator@TOMERPC>
+:...skipping...
+commit 2b85dcc39a17c14a8d8c8fbe8cd671b19a6ccede (HEAD -> master, origin/master, origi
+n/HEAD)
+Author: Eyal Cohen <Eyalcohenx@gmail.com>
+Date:   Sun Jun 23 11:41:01 2019 +0300
+
+    Last commit for the Semester!!!
+
+commit 75e5ca18e31e62666527a7fd2d2a40c918eb18f6
+Author: Administrator <Administrator@TOMERPC>
+Date:   Fri Jun 21 04:05:10 2019 +0300
+
+    tomer last push in tichnut mitkadem!
+    until we meet again
+    see ya in the next courses
+
+commit 27610f05d8d9a628bc345ab76ee9a846c9e50dea
+Author: Eyal Cohen <Eyalcohenx@gmail.com>
+Date:   Fri Jun 21 01:33:26 2019 +0300
+
+    connect is now working.
+    need to fix the rotating issue.
+
+commit 6d9c6e9880704469d6b9e24f3a99f59b2f891ece
+Author: Eyal Cohen <Eyalcohenx@gmail.com>
+Date:   Thu Jun 20 19:20:00 2019 +0300
+
+    connect with set is ready
+
+commit cc81a04fae96e81d0146946091a8363d8070e0ce
+Author: Administrator <Administrator@TOMERPC>
+Date:   Thu Jun 20 07:47:15 2019 +0300
+:

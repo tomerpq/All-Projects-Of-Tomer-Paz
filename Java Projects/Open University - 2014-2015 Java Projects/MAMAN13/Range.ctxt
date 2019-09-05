@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=s\ b
+comment0.target=Range(int,\ int)
+comment1.params=
+comment1.target=int\ getSmall()
+comment2.params=
+comment2.target=int\ getBig()
+numComments=3

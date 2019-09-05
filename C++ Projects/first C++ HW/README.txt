@@ -1,0 +1,1 @@
+First C++ project made in clion in linux
